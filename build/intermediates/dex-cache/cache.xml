@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/garethdsouza/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_f90ffb9a7a451bc1dda53736357f2eeb8c17bd7c.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_d5ca3805eece2aacb27809f092b4349b84af0913.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_153a7b5fef3fccb4587ba50e70f5b435fa77cda7.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/okio-1.4.0_7564f292a9da5d58644d9517c74191872d51fc40.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.github.chrisbanes/PhotoView/1.2.6/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e39dd45427d2ba136c82ed1946f80dd3dff16695">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.github.chrisbanes-PhotoView-1.2.6_bc38fb7d588bb1b88472cf88b6057354f1c44b14.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0e5a66a941515d873a34065fe44fbba6ef422a1b">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-23.2.1_aa817615d8b021b618e966fa005aa7f9356fe801.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_c712b0fbe5877092c750b5a5ceed0811b9b50c2b.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_f49f09d9fa9db4c2aa0cffd933f8399bbe61d2b9.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_9d26958d36d79bd89d962b2a003ebc323da22a42.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_260299b6e307c0a3eb8b8c866f0600b1342c028a.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_adc6fac66f77d5f213546cf815610a1e3900a6cc.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_d1c14c97a099437a189a0e80ad958a276084d655.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.2.1_8c59da4e34b4c4850d935126dcc1090f778dd174.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_579768568c6cf4626ac51d2b896706deef83a94c.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0_c059f9d45a4b08da68f6854c545f51d2e50095f6.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86da97c30f50a67ddabe2cf7040713ad17153fce">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.11.0_dbce2fa5660c81fffaaf8420a7afc0175d522dc2.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_8a97d90956dd2c8690d0ade6a9ecb996d3ddade0.jar" />
+    </item>
+    <item
+        jar="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/exploded-aar/com.hudomju/swipe-to-dismiss-undo/1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c934830482473cb298c02f9eb55da67548b9db40">
+        <dex dex="/Users/garethdsouza/AndroidStudioProjects/StockSearch/app/build/intermediates/pre-dexed/debug/com.hudomju-swipe-to-dismiss-undo-1.0_732b2a564547c285ab047af5db82186de82d12d9.jar" />
+    </item>
+
+</items>

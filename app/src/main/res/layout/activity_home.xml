@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.garethdsouza.stocksearch.MyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/appBarLayout"
+            >
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/home_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:titleTextColor="@color/colorFontPrimaryLight"
+                android:title="@string/app_name"
+                />
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:id="@+id/homeUIControls"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@id/appBarLayout">
+            <TextView
+                android:id="@+id/searchTitleText"
+                android:text="@string/search_text_lbl"
+                style="@style/textTitles"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                />
+            <!--<com.garethdsouza.stocksearch.HelperClasses.CustomAutoCompleteTextView-->
+                <!--android:id="@+id/autocomplete"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:hint="Enter something here"-->
+                <!--android:completionThreshold="1"-->
+                <!--/>-->
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteText"
+                android:layout_marginLeft="8dp"
+                style="@style/autoCompleteText">
+                <requestFocus />
+            </AutoCompleteTextView>
+            <!--<CustomAutoCompleteView-->
+                <!--&lt;!&ndash;android:id="@+id/myautocomplete"&ndash;&gt;-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:completionThreshold="1" >-->
+            <!--</CustomAutoCompleteView>-->
+
+            <LinearLayout
+                android:id="@+id/searchUi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_below="@id/autoCompleteText">
+                <Button
+                    android:id="@+id/clearButton"
+                    style="@style/homeButtons"
+                    android:text="@string/clear_text_btn"
+                    android:onClick="onButtonClick"
+                    />
+                <Button
+                    android:id="@+id/getQuoteButton"
+                    style="@style/homeButtons"
+                    android:text="@string/get_quote_text_btn"
+                    android:onClick="onButtonClick"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/favoriteUIControl"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_below="@id/searchUi">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/textTitles"
+                    android:id="@+id/favoriteLabel"
+                    android:text="@string/favorites_lbl"
+                    android:layout_weight="0.7"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    style="UILabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auto_refresh_lbl"
+                    android:layout_marginLeft="48dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginTop="2dp"
+                    android:textSize="16dp"
+                    android:layout_gravity="center"
+                    />
+
+                <Switch
+                    android:id="@+id/refreshFavoritesSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:layout_marginRight="8dp"
+                    android:onClick="onButtonClick"
+                    android:gravity="center"/>
+                <ImageButton
+                    android:id="@+id/refreshFavorites"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:layout_marginRight="4dp"
+                    android:src="@drawable/refresh"
+                    android:background="#EEE"
+                    android:onClick="onButtonClick"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ListView
+                    android:id="@+id/favoritelist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </ListView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

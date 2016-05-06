@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.garethdsouza.stocksearch.StockInfoActivity">
+    <item
+        android:title="Favorite"
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/star_empty"
+        android:checkable="true"
+        app:showAsAction="always"/>
+    <item
+        android:title="Share"
+        android:id="@+id/action_share"
+        android:icon="@drawable/share"
+        app:showAsAction="always"/>
+</menu>
+

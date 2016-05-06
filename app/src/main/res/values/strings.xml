@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Stock Market Viewer</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Search Box Strings-->
+    <string name="search_text_lbl">Stock Name/Symbol</string>
+    <string name="search_placeholder_textbox">AAPL or Apple Inc.</string>
+    <string name="clear_text_btn">CLEAR</string>
+    <string name="get_quote_text_btn">GET QUOTE</string>
+
+    <!--Favorites UI Control Strings-->
+    <string name="favorites_lbl">Favorites</string>
+    <string name="auto_refresh_lbl">Auto Refresh</string>
+    
+    <!--Stock Info UI Control-->
+    <!--Stock Info Tabs-->
+    <string name="current_tab">CURRENT</string>
+    <string name="historical_tab">HISTORICAL</string>
+    <string name="news_tab">NEWS</string>
+
+    <string name="pager_title_current">Stock Details</string>
+    <string name="pager_title_news">News Feed</string>
+
+
+    <!--Facebook-->
+    <string name="facebook_app_id">1013765568691639</string>
+
+
+</resources>

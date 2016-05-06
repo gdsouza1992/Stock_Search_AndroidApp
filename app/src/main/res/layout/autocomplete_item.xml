@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:mode="twoLine"
+    android:orientation="vertical"
+    >
+    <TextView android:id="@+id/autoCompleteTextLabel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"/>
+
+    <TextView android:id="@+id/autoCompleteTextLabel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autoCompleteTextLabel1"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+</LinearLayout>

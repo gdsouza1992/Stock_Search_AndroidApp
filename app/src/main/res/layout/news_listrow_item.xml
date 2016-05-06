@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+    <TextView
+        android:id="@+id/newsHeader"
+        android:text="RANDOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/newsDescription"
+        android:text="RANDOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newsHeader"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/newsPublisher"
+        android:text="RANDOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_below="@id/newsDescription"/>
+    <TextView
+        android:id="@+id/newsPublishDate"
+        android:text="RANDOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_below="@id/newsPublisher"/>
+    <TextView
+        android:id="@+id/newsURL"
+        android:text="RANDOM"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newsPublishDate"/>
+
+</RelativeLayout>
